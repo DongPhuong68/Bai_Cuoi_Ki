@@ -1,3 +1,61 @@
+
+/* html{
+    font-size: 20px;
+    color: #000;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+} */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+#wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1440px;
+    max-height: 133px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+/* }
+.header-logo{
+    width: 395.83px; 
+    height: 37.53px;
+    margin-left: 52.54px;
+    margin-top: 63.58px;
+    margin-bottom: 42.93px;
+}
+.header-menu{
+    list-style: none;
+    display: flex;
+    margin-left: 476.59px;
+    text-decoration: none;
+    margin-top:59px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.menu-item-blog{
+    width: 66px;
+    height: 34px;
+    margin-right: 31px;
+    align: center;
+    vertical-align: Top
+
+}
+.menu-item-about{
+    margin-right: 34px;
+
+} */ */
 *{
     margin: 0;
     padding: 0;
@@ -28,52 +86,51 @@
 }
 .menu{
     list-style: none;
+    /* display: flex; */
+    /* margin-top: 59px; */
+    justify-content:flex-end ;
+}
+.menu-list{
     display: flex;
-    margin-top: 59px;
+    list-style: none;
 }
 a {
     text-decoration: none;
     text-align: center;
     color: black;
 }
-span{
-    display: block;
-}
-.menu-item-blog{
+.menu-item-blog>a{
     width: 66px;
     height: 34px;
     font-size: 20px;
-    Line-height: 34px;
-    Line-height: 170%;
-    letter-spacing: 12%;
     margin-right: 31px;
     margin-left: 476.59px;
     text-align: center;
-    vertical-align: top;
+    /* vertical-align: top; */
 }
-.menu-item-about{
+.menu-item-about>a{
     width: 84px;
     height: 34px;
     font-size: 20px;
-    margin-right: 31px;
+    margin-right: 34px;
     text-align: center;
-    vertical-align: top;
+    /* vertical-align: top; */
 }
-.menu-item-links{
+.menu-item-links>a{
     width: 71px;
     height: 34px;
     font-size: 20px;
-    margin-right: 31px;
+    margin-right: 36px;
     text-align: center;
-    vertical-align: top;
+    /* vertical-align: top; */
 }
-.menu-item-projects{
+.menu-item-projects>a{
     width: 121px;
     height: 34px;
     font-size: 20px;
-    margin-right: 31px;
+    margin-right: 61px;
     text-align: center;
-    vertical-align: top;
+    /* vertical-align: top; */
 }
 .heading-image{
     width: 854px;
@@ -81,7 +138,7 @@ span{
     margin-top: 77px;
     margin-left: 293px;
     margin-right: 293px;
-    margin-bottom: 44px;
+    margin-bottom: 3px;
 }
 .row > h1{
     font-size: 54px;
