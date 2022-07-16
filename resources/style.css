@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+}
 #wrapper{
     max-width: 1440px;
     margin: 0 auto;
@@ -91,9 +94,27 @@ a {
 .header-heading{
     margin-bottom: 32px;
 }
-.header-content>p{
+.header-heading>h1{
+    width: 592px;
+    height: 162px;
     font-size: 20px;
 }
-.header-content{
+.header-content>p{
+    margin-left: 424px;
+    margin-right: 424px;
+    width: 592px;
+    height: 68px;
+    font-size: 20px;
     text-align: center;
+}
+.header-content{
+    max-width: 1440px;
+    text-align: center;
+}
+.header-content>hr{
+    width: 640px;
+    height: 0;
+    background-color: black;
+    margin: 0px 400px;
+    border: 2px solid black;
 }
