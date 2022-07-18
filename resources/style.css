@@ -16,7 +16,7 @@ body {
 .header {
     height: 132px;
     padding-right: 61px;
-    padding-left: 63.58px;
+    padding-left: 64px;
     display: flex;
     /* align-items: center; */
     border-bottom: 1px solid rgba(0, 0, 0, 0.16)
@@ -32,13 +32,14 @@ ul{
     padding: 0;
     margin: 0;
     border: 0;
-    margin-left: 412px;
+    margin-left: 413px;
 }
 .header-menu{
     list-style: none;
     display: flex;  
     font-size: 20px;
     margin-top: 59px;
+
 }
 .header-item-blog{
     height: 34px;
@@ -66,12 +67,11 @@ ul{
 .header-item-blog hr{
     width: 66px;
     height: 0;
-    margin-top: 39px;
+    margin-top: 38px;
 }
 .header-link {
     font-family: 'New York Small', sans-serif;
     Line-height: 34px;
-    Vertical-align: Top;
     Letter-spacing: 2.5px;
     color: #000;
     font-weight: 500;
@@ -133,6 +133,7 @@ ul{
     Height:53px;
     margin-left: 608px;
     margin-top: 64px;
+    margin-bottom: 39px;
     white-space: nowrap;
     *--để chữ không bị rớt xún dòng---*
 }
@@ -141,15 +142,36 @@ ul{
     grid-template-columns: repeat(2,1fr);
     grid-template-rows:repeat(6,1fr);
     column-gap: 28px;
-    row-gap: 64px; 
+    row-gap: 64px;
 }
-.section__articles-item{
-    display: block;
+.section__articles-item1 img{
+    width : 304px;
+    height: 176px; 
+    margin-left: 402px;
+}
+.section__articles-item1 span{
+    margin-left: 423px;
+    margin-top: 15px;
+}
+.section__articles-item2 span{
+    margin-left: 21px;
+    margin-top: 15px;
 }
 
-.section__articles-item img{
+.section__articles-item2 img{
+    width : 304px;
+    height: 176px; 
+    margin-right: 402px;
 }
 
 .section__articles-item-text{
     display: block;
+    text-align: center;
+    Font-family: "SF Pro Display",sans-serif;
+    Font style: Medium;
+    Font size: 22px;
+    Line height: 26px;
+    font-weight: 500;
+    Width: 262px;
+    Height:78px;
 }
