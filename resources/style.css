@@ -37,7 +37,6 @@ ul{
 .header-menu{
     list-style: none;
     display: flex;  
-    font-size: 20px;
     margin-top: 59px;
 
 }
@@ -47,6 +46,16 @@ ul{
     margin-right: 31px;
     text-align: center;
 }
+/* .header-item-blog:after{
+    content: " ";
+    display: block;
+    width: 62px;
+    height: 0;
+    border: 2px solid black;
+    background-color: #000;
+    margin-top: 35px;
+} */
+
 .header-item-about{
     height: 34px;
     width: 84px;
@@ -67,15 +76,20 @@ ul{
 .header-item-blog hr{
     width: 66px;
     height: 0;
-    margin-top: 38px;
+    margin-top: 37px;
+    size: 2px;
+    /* color: black; */
+    border-color: #000;
+    background-color: #000;
 }
 .header-link {
     font-family: 'New York Small', sans-serif;
     Line-height: 34px;
-    Letter-spacing: 2.5px;
+    Letter-spacing: 0.12em;
     color: #000;
     font-weight: 500;
     font-size: 20px;
+    font-style: normal;
     text-decoration: none;
 }
 .section__about{
@@ -117,7 +131,7 @@ ul{
 .section__about-content hr{
     width: 640px;
     height: 0;
-    margin-top: 34px;
+    margin: 34px 400px 0px 400px;
 }
 .section__articles{
 
@@ -168,9 +182,8 @@ ul{
     display: block;
     text-align: center;
     Font-family: "SF Pro Display",sans-serif;
-    Font style: Medium;
-    Font size: 22px;
-    Line height: 26px;
+    Font-size: 22px;
+    Line-height: 26px;
     font-weight: 500;
     Width: 262px;
     Height:78px;
