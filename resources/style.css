@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 body {
-    background-color: white;
     color: #000;
     margin: 0;
 }
-
+/* --------------------------- */
+/* ----------HEADER+--------------- */
 .app {
     margin: 0 auto;
     max-width: 1440px;
@@ -18,7 +18,6 @@ body {
     padding-right: 61px;
     padding-left: 64px;
     display: flex;
-    /* align-items: center; */
     border-bottom: 1px solid rgba(0, 0, 0, 0.16)
 }
 .header-logo img{
@@ -28,18 +27,17 @@ body {
     margin-right: 63.58px;
     margin-bottom: 42.93px;
 }
-ul{
+.header ul{
     padding: 0;
-    margin: 0;
+    margin: 59px 0 40px 413px;
     border: 0;
-    margin-left: 413px;
 }
 .header-menu{
     list-style: none;
     display: flex;  
     margin-top: 59px;
-
 }
+
 .header-item-blog{
     height: 34px;
     width: 66px;
@@ -92,6 +90,8 @@ ul{
     font-style: normal;
     text-decoration: none;
 }
+/* --------------------------- */
+/* ----------BODY-------------- */
 .section__about{
     max-width: 1440px;
     text-align: center;
@@ -132,9 +132,6 @@ ul{
     width: 640px;
     height: 0;
     margin: 34px 400px 0px 400px;
-}
-.section__articles{
-
 }
 .section__articles-title{
     Font-family: "New York Extra Large", sans-serif;
@@ -187,4 +184,167 @@ ul{
     font-weight: 500;
     Width: 262px;
     Height:78px;
+}
+/* ------------------------ */
+/* --------------------------- */
+/* ----------FOOTER--------------- */
+.footer{
+    max-width: 1440px;
+    height: 464px;
+    margin-top: 113px;
+    color: white;
+    background-color: #000;
+}
+.footer__header{
+    max-width: 1440px;
+    height: 46px;
+}
+
+.footer__header-list{
+    max-width: 1140px;
+    text-transform: uppercase;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+}
+.footer__header-item1{
+    margin-top: 18px;
+    position: absolute;
+    margin-left: -6px;
+    width: 319px;
+    height: 28px;
+    font-weight: 800;
+    font-size: 19px;
+}
+.footer__header-item2{
+    margin-top: 18px;
+    position: absolute;
+    width: 168px;
+    height: 28px;
+    margin-left: 323px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.footer__header-item3{
+    margin-top: 18px;
+    position: absolute;
+    margin-left: 510px;
+    width: 132px;
+    height: 28px;
+    font-weight: 800;
+    font-size: 19px;
+}
+.footer__header-item4{
+    margin-top: 18px;
+    position: absolute;
+    width: 237px;
+    height: 28px;
+    margin-left: 658px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.footer__header-item5{
+    margin-top: 18px;
+    position: absolute;
+    margin-left: 908px;
+    width: 145px;
+    height: 28px;
+    font-weight: 800;
+    font-size: 19px;
+}
+.footer__header-item6{
+    margin-top: 18px;
+    position: absolute;
+    margin-left: 1066px;
+    width: 117px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.footer__header-item7{
+    margin-top: 18px;
+    position: absolute;
+    margin-left: 1201px;
+    width: 145px;
+    height: 28px;
+    font-weight: 800;
+    font-size: 19px;
+}
+.footer__header-item8{
+    margin-top: 18px;
+    position: absolute;
+    margin-left: 1354px;
+    width: 100px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.footer__body{
+    position: absolute;
+}
+.footer__body-img img{
+    margin-left: 571.55px;
+    margin-top: 105px;
+    width: 290.91px;
+    height: 27.3px;
+}
+.footer__body-text{
+    text-align: center;
+    width: 488px;
+    height: 71px;
+    margin-left: 473px;
+    margin-top: 21px;
+    font-family: 'New York Small',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+.footer__body-list{
+    display: flex;
+    text-decoration-line: underline;
+    list-style: none;
+    margin-left: 616px;
+    margin-top: 32px;
+    font-family: 'SF Pro Text',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+}
+.footer__body-item-twitter{
+    width: 55px;
+    height: 27px;
+    margin-right: 27px;
+}
+.footer__body-item-linkedIn{
+    width: 66px;
+    height: 27px;
+    margin-right: 29px;
+}
+.footer__body-item-RSS{
+    width: 66px;
+    height: 27px;
+    margin-right: 29px;
+    width: 32px;
+    height: 27px;
+}
+.footer__desc-text{
+    position: absolute;
+    width: 178px;
+    height: 34px;
+    margin-left: 627px;
+    margin-top: 352px;
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
 }
