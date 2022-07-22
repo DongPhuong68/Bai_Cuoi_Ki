@@ -146,6 +146,10 @@ body {
     row-gap: 162px;
     margin: 0px 402px 0px 402px ;
 }
+.section__articles-list a{
+    text-decoration: none;
+    color: black;
+}
 .articles_img img{
     width: 304px;
     height: 176px;

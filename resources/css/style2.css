@@ -517,3 +517,16 @@ a {
 .suggestion__articles-item img{
     height: 176px;
 }
+.suggestion__articles-item span{
+    margin: 15px auto;
+}
+.suggestion__articles-item-text{
+    display: block;
+    text-align: center;
+    Font-family: "SF Pro Display",sans-serif;
+    Font-size: 22px;
+    Line-height: 120%;
+    font-weight: 500;
+    Width: 282px;
+    Height:104px;
+}
