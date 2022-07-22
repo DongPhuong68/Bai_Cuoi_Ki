@@ -81,7 +81,7 @@ body {
     text-decoration: none;
 }
 /* --------------------------- */
-/* ----------BODY-------------- */
+/* ----------SECTION ABOUT-------------- */
 .section__about{
     max-width: 1440px;
     text-align: center;
@@ -120,6 +120,12 @@ body {
     height: 0;
     margin: 34px 400px 0px 400px;
 }
+/* --------------------------- */
+/* ----------SECTION ARTICLES-------------- */
+.section__articles{
+    width: 1440px;
+    height: 2169px;
+}
 .section__articles-title{
     Font-family: "New York Extra Large", sans-serif;
     Font-size: 44px;
@@ -128,37 +134,25 @@ body {
     font-weight: 700;
     Width:225px;
     Height:53px;
-    margin-left: 608px;
-    margin-top: 64px;
-    margin-bottom: 39px;
+    margin: 64px 607px 39px 608px ;
     white-space: nowrap;
     /* *--để chữ không bị rớt xún dòng---* */
 }
 .section__articles-list{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows:repeat(6,1fr);
-    column-gap: 28px;
-    row-gap: 64px;
+    grid-template-columns: repeat(2,304px);
+    grid-template-rows:repeat(6,176px);
+    column-gap: 28px ;
+    row-gap: 162px;
+    margin: 0px 402px 0px 402px ;
 }
-.section__articles-item1 img{
-    width : 304px;
-    height: 176px; 
-    margin-left: 402px;
-}
-.section__articles-item1 span{
-    margin-left: 423px;
-    margin-top: 15px;
-}
-.section__articles-item2 span{
-    margin-left: 21px;
-    margin-top: 15px;
+.articles_img img{
+    width: 304px;
+    height: 176px;
 }
 
-.section__articles-item2 img{
-    width : 304px;
-    height: 176px; 
-    margin-right: 402px;
+.articles-item1 span{
+    margin: 15px auto;
 }
 
 .section__articles-item-text{
@@ -177,7 +171,6 @@ body {
 .footer{
     max-width: 1440px;
     height: 464px;
-    margin-top: 113px;
     color: white;
     background-color: #000;
 }
