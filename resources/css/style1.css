@@ -136,30 +136,43 @@ body {
     Height:53px;
     margin: 64px 607px 39px 608px ;
     white-space: nowrap;
-    /* *--để chữ không bị rớt xún dòng---* */
+    /* --để chữ không bị rớt xún dòng--- */
 }
-.section__articles-list{
+.section__articles-list-1{
     display: grid;
     grid-template-columns: repeat(2,304px);
     grid-template-rows:repeat(6,176px);
     column-gap: 28px ;
     row-gap: 162px;
     margin: 0px 402px 0px 402px ;
+    /* display: none; */
 }
-.section__articles-list a{
+.section__articles-list-2{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    grid-template-rows:repeat(3,100px);
+    column-gap: 28px ;
+    row-gap: 162px;
+    margin: 0px 402px 0px 402px ;
+    /* display: none; */
+}
+.section__articles-list-1 a{
     text-decoration: none;
     color: black;
 }
-.articles_img img{
+.section__articles-list-2 a{
+    text-decoration: none;
+    color: black;
+}
+.articles_img1 img{
     width: 304px;
     height: 176px;
 }
-
-.articles-item1 span{
-    margin: 15px auto;
+.articles_img2 img{
+    width: 304px;
+    height: 176px;
 }
-
-.section__articles-item-text{
+.articles_img-span{
     display: block;
     text-align: center;
     Font-family: "SF Pro Display",sans-serif;
@@ -168,7 +181,17 @@ body {
     font-weight: 500;
     Width: 262px;
     Height:78px;
+    margin: 15px auto;
 }
+.articles_img2{
+    display: none;
+}
+
+/* ------------------------------- */
+/* responsive */
+
+
+
 /* ------------------------ */
 /* --------------------------- */
 /* ----------FOOTER--------------- */
@@ -277,6 +300,9 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
+}
+.body-text-2{
+    display: none;
 }
 .footer__body-list{
     display: flex;

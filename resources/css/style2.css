@@ -193,11 +193,14 @@ a {
     margin: 14px 25px
 }
 
+
 .section__articles-social-facebook {
     width: 70px;
     height: 44px;
     border-right: 1px solid #EAEAEA;
-
+}   
+.section__articles-social-phone {
+        display: none;
 }
 
 .articles-introduce {
@@ -211,7 +214,10 @@ a {
     line-height: 170%;
     text-align: start;
 }
+.articles-introduce1 {
+    display: none;
 
+}
 .articles-title {
     width: 288px;
     height: 51px;
@@ -233,7 +239,9 @@ a {
     line-height: 170%;
     text-align: start;
 }
-
+.articles-introduce2 {
+    display: none;
+}
 .articles-img img {
     width: 854px;
     height: 570px;
@@ -250,7 +258,9 @@ a {
     line-height: 140%;
     text-align: center;
 }
-
+.articles-introduce3 {
+    display: none;
+}
 .articles-main {
     width: 640px;
     height: 272px;
@@ -262,6 +272,9 @@ a {
     line-height: 170%;
     text-align: start;
 }
+.articles-title1{
+    display: none;
+    }
 
 /* .section__articles-body-menu{
     margin:  19px 428px 0px 400px;
@@ -373,6 +386,9 @@ a {
     height: 26px;
     margin: 19px 75px 19px 16px;
 }
+.articles-close-line {
+    display: none;
+}
 
 .articles-close-img-facebook {
     height: 20px;
@@ -400,7 +416,7 @@ a {
 .articles-close-tag {
     width: 240px;
     height: 19px;
-    font-family: 'SF Pro Text', sans-serif;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -415,6 +431,7 @@ a {
 .articles-close-img {
     width: 640px;
     margin: 34px 400px 0px 400px;
+
 }
 
 .articles-author {
@@ -422,11 +439,13 @@ a {
     margin-left: 399px;
 }
 
-.author-infomation {
+.author-information {
     width: 543px;
     height: 78px;
     margin: 32px 0px 0px 24px;
+
 }
+
 
 .author-avatar img {
     margin-top: 36px;
@@ -444,7 +463,8 @@ a {
     text-transform: uppercase;
 }
 
-.author-introduction {
+
+.author-introduction-1 {
     width: 543px;
     height: 78px;
     font-family: 'New York Small', sans-serif;
@@ -452,42 +472,29 @@ a {
     font-Size: 16px;
     Line-height: 25.6px;
 }
+.author-introduction-2 {
+    font-family: 'New York Small', sans-serif;
+    font-Weight: 400;
+    font-Size: 16px;
+    Line-height: 25.6px;
+}
+
 
 /* ----------------------------- */
 /* ----------------suggestion----------------- */
 .suggestion{
-    /* display: block; */
     width: 1440px;
     height: 866px;
 }
-.suggestion__line{
-    position: absolute;
-}
+
 .suggestion-line{
     width: 1440px;
     margin-top: 132px;
 }
-.suggestion__elip-border-l{
-    width: 44.29px;
-    height: 62.86px;
+.suggestion-eye{
+    position: absolute;
     margin-left: 679px; 
-     margin-top: -30px; 
-}
-.suggestion__elip-black-l{
-    width: 17.14px;
-    height: 24.29px;
-    margin-left: 696px;
-}
-.suggestion__elip-border-r{
-    width: 44.29px;
-    height: 62.86px;
-    margin-left: 717px;
-    margin-top: -30px;
-}
-.suggestion__elip-black-r{
-    width: 17.14px;
-    height: 24.29px;
-    margin-left: 734px;
+    margin-top: -25px; 
 }
 
 /* ___________________ */
@@ -513,13 +520,17 @@ a {
     margin-left: 221px;
     margin-top: 27px;
 }
-.suggestion__articles-item img{
+
+.articles-item-text1-2{
+    display: none;
+}
+.articles_img img{
     height: 176px;
 }
-.suggestion__articles-item span{
+.articles_img span{
     margin: 15px auto;
 }
-.suggestion__articles-item-text{
+.suggestion__articles{
     display: block;
     text-align: center;
     Font-family: "SF Pro Display",sans-serif;
@@ -528,7 +539,9 @@ a {
     font-weight: 500;
     Width: 282px;
     Height:104px;
-}
+}   
+
+   
 /* ------------------------------------
 ________________SIGN_UP______________ */
 .Sign_up{
@@ -550,6 +563,18 @@ ________________SIGN_UP______________ */
     text-align: center;
     margin: 62px 89px 18px 89px;
 }
+.Sign_up h4 {
+    width: 444px;
+    height: 28px;
+    font-family: 'New York Extra Large',sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+    white-space: nowrap;
+    text-align: center;
+    margin: 62px 89px 18px 89px;
+    display:none;
+}
 .Sign_up p {
     width: 538px;
     height: 56px;
@@ -559,6 +584,17 @@ ________________SIGN_UP______________ */
     line-height: 28px;
     text-align: center;
     margin: 0px 51px 36px 51px;
+}
+.Sign_up h5 {
+    width: 538px;
+    height: 56px;
+    font-family: 'SF Pro Text',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0px 51px 36px 51px;
+    display: none;
 }
 form{
     width: 640px;
