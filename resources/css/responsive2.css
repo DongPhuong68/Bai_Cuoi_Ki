@@ -19,7 +19,15 @@
     .header-menu {
         display: none;
     }
-
+    .header-bar{
+        width: 24px;
+        height: 14px;
+        margin-top: 27px;
+        margin-right: 20px;
+        margin-bottom:  24px;
+        margin-left:  -50px;
+        display: block;
+    }
     .section__about-title {
         width: 335px;
         height: 172px;
@@ -470,9 +478,9 @@ ________________SIGN_UP______________ */
         display: flex;
         justify-content: center;
         align-items: center;
-        border-top: 2px solid black;
-        width: 375px;
-        margin-top: 82px;
+        border-top: 10px solid black;
+        width: 379px;
+        margin-top: 34px;
         margin-left: 2px;
     }
 
@@ -489,7 +497,7 @@ ________________SIGN_UP______________ */
         line-height: 28px;
         white-space: nowrap;
         text-align: center;
-        margin: 42px 65px 0px 65px;
+        margin: 42px 65px 14px 65px;
         display: block;
     }
 
@@ -505,60 +513,50 @@ ________________SIGN_UP______________ */
         font-size: 16px;
         line-height: 22.4px;
         text-align: center;
-        margin: 14px 36px 33px 37px;
+        margin: 0px 36px 33px 37px;
         display: block;
     }
 
     form {
         width: 379px;
         height: 305px;
-        border: 1px solid black;
+        border-bottom: 1px solid black;
+        border-top: #FFFFFF;
+        border-right:#FFFFFF ;
+        border-left: #FFFFFF;
     }
 
     .text-login {
-        width: 283px;
+        width: 199px;
         height: 54px;
-        border: 1px solid #000000;
+        border: 1px solid black;
         font-size: 16px;
-        padding-left: 16px;
-
     }
 
     .text-login::placeholder {
-        position: absolute;
-        padding: 0 5px;
-        left: 34px;
-        margin-top: 15px;
-        font-family: 'SF Pro Text', sans-serif;
-        font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 19px;
         color: #000;
     }
 
     .button-login {
         display: flex;
-        margin-left: 60px;
+        margin-left: 36px;
     }
 
     .btn-login {
         width: 108px;
         height: 54px;
-        background-color: #000000;
-        color: #FFFFFF;
-        font-family: 'SF Pro Text', sans-serif;
-        font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.05em;
-
+        border-color: black;
     }
 
     /* _______________________ */
     .footer{
         width: 375px;
-        height: 456px;      
+        height: 456px;  
+        margin-top: 52px;    
     }
 
     .footer__header {

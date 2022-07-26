@@ -37,6 +37,9 @@ body {
     display: flex;  
     margin-top: 59px;
 }
+.header-bar{
+    display: none;
+}
 
 .header-item-blog{
     height: 34px;
