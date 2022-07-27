@@ -1,6 +1,6 @@
 @media screen and (max-width: 376px) {
     body {
-        width: 375px;
+        max-width: 375px;
     }
 
     .header {
@@ -13,9 +13,7 @@
         width: 217px;
         height: 20px;
         margin: 24px 138px 21px 20px;
-
     }
-
     .header-menu {
         display: none;
     }
@@ -41,17 +39,12 @@
     .section__about-text {
         width: 335px;
         height: 81px;
-        font-weight: 400;
         font-size: 16px;
-        line-height: 170%;
-        text-align: center;
         margin: 0px 20px 36px 20px;
     }
 
     .section__about-img {
         width: 375px;
-        height: 235px;
-        margin-top: 0px;
     }
 
     .section__about-img img {
@@ -65,39 +58,30 @@
 
     .section__about-img hr {
         width: 335px;
-        margin: 0px 20px 24px 20px;
+        margin: 0px 20px 0px 20px;
     }
-
+    /* __________________ */
     .section__articles-author {
-        width: 57px;
-        height: 57px;
-        margin: 24px 299px 23px 19px;
-        display: flex;
+        margin-left: 19px;
+        display: block;
     }
 
     .section__articles-avatar img {
         width: 57px;
         height: 57px;
-        border-radius: 50%;
-        margin-top: 24px;
     }
-
-
     .section__articles-information {
+        height: 57px;
         margin-top: 30px;
         margin-left: 16px;
     }
-
     .section__articles-info {
         width: 132px;
         height: 16px;
-        font-weight: 700;
         font-size: 13px;
         line-height: 15.51px;
-        letter-spacing: 0.05em;
         margin-bottom: 6px;
     }
-
     .section__articles-time {
         width: 155px;
         height: 16px;
@@ -105,20 +89,11 @@
         font-size: 13px;
         line-height: 15.51px;
     }
-
     .section__articles-social {
         width: 335px;
         height: 54px;
-        margin-left: -230px;
-        margin-top: 104px;
-        box-sizing: border-box;
-        border: 1px solid #EAEAEA;
-        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
-        border-radius: 4px;
-        text-align: center;
-
+        margin: 17px 20px 0px 1px ;
     }
-
     .section__articles-social-phone img {
         margin: 17px 46px;
     }
@@ -126,11 +101,15 @@
     .section__articles-social-phone {
 
         display: block;
+    }
+    .section__articles-social-facebook {
         width: 112px;
         height: 54px;
-        border-right: 1px solid #EAEAEA;
     }
-
+    .section__articles-social-twitter {
+        width: 111px;
+        height: 54px;
+    }
     .section__articles-social-facebook img {
         margin: 17.4px 46px 17.4px 46px;
     }
@@ -139,132 +118,62 @@
         margin: 19px 46px
     }
 
-    .section__articles-social-facebook {
-        width: 112px;
-        height: 54px;
-        border-right: 1px solid #EAEAEA;
-    }
-
-    .section__articles-social-twitter {
-        width: 111px;
-        height: 54px;
-        border-right: 1px solid #EAEAEA;
-
-    }
-
-    .articles-introduce {
+    /* _________________________ */
+    .articles-introduce-1 {
         display: none;
     }
 
-    .articles-introduce1 {
-        width: 335px;
-        height: 135px;
+    .articles-introduce-2 {
         margin-left: 20px;
-        margin-top: 134px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 170%;
+        margin-top: 32px;
         display: block;
     }
-
     .articles-title {
         width: 335px;
         height: 31px;
         margin: 42px 20px 19px 20px;
-        font-family: 'SF Pro Display', sans-serif;
-        font-weight: 700;
         font-size: 26px;
         line-height: 31.03px;
     }
-
-    .articles-opening {
+    .articles-opening-1 {
         display: none;
     }
-
-    .articles-introduce2 {
-        width: 335px;
-        height: 135px;
+    .articles-opening-2 {
         margin-left: 20px;
         margin-top: 19px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 170%;
         display: block;
     }
-
     .articles-img img {
         width: 375px;
         height: 250px;
-        margin: 42px 0px 12px 0px;
+        margin: 42px 0px 7px 0px;
     }
-
     .articles-img-caption {
         width: 335px;
         height: 36px;
         margin-left: 20px;
-        font-family: 'SF Pro Text', sans-serif;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 18.2px;
-        text-align: center;
+        font-size: 13px;
+        line-height: 18px;
     }
-
-    .articles-introduce3 {
-        width: 335px;
-        height: 270px;
+    .articles-main-2 {
         margin-left: 22px;
         margin-top: 42px;
-        font-family: 'New York Medium';
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 27.2px;
-        text-align: start;
         display: block;
     }
 
-    .articles-main {
+    .articles-main-1 {
         display: none;
     }
-
-    .articles-title1 {
-        width: 46px;
-        height: 17px;
+    .articles-share {
         margin: 42px 309px 9px 20px;
-        font-family: 'SF Pro Display';
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 17px;
         display: block;
     }
-
-    .articles-main {
-        display: none;
-    }
-
     .articles-list {
         display: none;
     }
-
-    .menu-item {
+    .articles-menu{
         display: none;
     }
-
-    .menu-_text {
-        display: none;
-    }
-
-    .menu__img {
-        display: none;
-    }
-
-    .menu__text-first {
-        display: none;
-    }
-
-    .menu__text-second {
-        display: none;
-    }
-
     .articles-ending {
         display: none;
     }
@@ -274,31 +183,18 @@
 
     }
 
+
     .articles-close-social {
         width: 335px;
         height: 54px;
-        margin-left: 20px;
-        margin-top: 9px;
-        box-sizing: border-box;
-        border: 1px solid #EAEAEA;
-        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
-        border-radius: 4px;
-        text-align: center;
-
+        margin:9px 20px 24px 20px;
     }
-
-
-
-    .articles-close-line img {
+    .articles-close-phone img {
         margin: 17px 46px;
     }
 
-    .articles-close-line {
-
+    .articles-close-phone {
         display: block;
-        width: 112px;
-        height: 54px;
-        border-right: 1px solid #EAEAEA;
     }
 
     .articles-close-text-facebook {
@@ -320,25 +216,19 @@
     .articles-close-facebook {
         width: 112px;
         height: 54px;
-        border-right: 1px solid #EAEAEA;
     }
 
     .articles-close-twitter {
         width: 112px;
         height: 54px;
-        border-right: 1px solid #EAEAEA;
 
     }
 
     .articles-close-tag {
         width: 210px;
         height: 17px;
-        font-family: 'SF Pro Text', sans-serif;
-        font-weight: 500;
         font-size: 14px;
-        line-height: 16.71px;
-        letter-spacing: 0.03em;
-        margin: 24px 145px 25px 20px;
+        margin: 0px 145px 25px 20px;
     }
 
     .articles-close-tag a {
@@ -346,30 +236,26 @@
     }
 
     .articles-close-img {
-        width: fit-content;
-
-        margin: 25px
+        width: 335px;
+        margin: 25px 20px 25px 20px;
     }
 
     .articles-close-img img {
         width: 335px;
-
-        margin-right: 20px
+        height: 1px;
     }
 
-    .articles-author {
-
+    .articles-author-2 {
         margin-left: 0px;
-
     }
 
-    .author-information {
+    .author-information-detail-1 {
         width: 245px;
         height: 16px;
         margin: 0px 0px 0px 24px;
     }
 
-    .author-avatar img {
+    .articles-author-2 img {
         width: 71.25px;
         height: 71.25px;
         border-radius: 50%;
@@ -384,28 +270,23 @@
         letter-spacing: 0.05em;
 
     }
-
-    .author-introduction-1 {
+    .author-introduction-1-1 {
         width: 245px;
         height: 88px;
-        font-family: 'New York Small', sans-serif;
-        font-Weight: 400;
         font-Size: 14px;
         Line-height: 22.4px;
     }
 
-    .author-introduction-2 {
-        width: 335px;
-        height: 22px;
-        font-family: 'New York Small', sans-serif;
-        font-Weight: 400;
-        font-Size: 14px;
-        Line-height: 22.4px;
-        margin: 0px 0px 0px -90px;
+    .author-introduction-1-2 {
+        display: none;
 
     }
-
-    /* ----------------suggestion----------------- */
+    .author-information-detail-2{
+        display: block;
+        margin: 1px 20px 91px 20px;
+    }
+    /* ----------------------------- */
+    /* ----------------suggestion----------------- */  
     .suggestion {
         width: 375px;
         height: 1145px;
@@ -418,8 +299,7 @@
     .suggestion-eye{
         margin: -25px 154px 0px 155px;
     }
-
-    /* ___________________ */
+    /* __________________________ */
     .suggestion__articles{
         width: 375px;
     }
@@ -473,15 +353,14 @@
     }
 
     /* ------------------------------------
-________________SIGN_UP______________ */
+    ________________SIGN_UP______________ */
     .Sign_up {
         display: flex;
         justify-content: center;
         align-items: center;
         border-top: 10px solid black;
-        width: 379px;
+        width: 375px;
         margin-top: 34px;
-        margin-left: 2px;
     }
 
     .Sign_up h3 {
@@ -518,7 +397,7 @@ ________________SIGN_UP______________ */
     }
 
     form {
-        width: 379px;
+        width: 375px;
         height: 305px;
         border-bottom: 1px solid black;
         border-top: #FFFFFF;
