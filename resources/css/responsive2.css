@@ -1,6 +1,6 @@
 @media screen and (max-width: 376px) {
     body {
-        max-width: 375px;
+        width: 375px;
     }
 
     .header {
@@ -13,7 +13,9 @@
         width: 217px;
         height: 20px;
         margin: 24px 138px 21px 20px;
+
     }
+
     .header-menu {
         display: none;
     }
@@ -39,12 +41,17 @@
     .section__about-text {
         width: 335px;
         height: 81px;
+        font-weight: 400;
         font-size: 16px;
+        line-height: 170%;
+        text-align: center;
         margin: 0px 20px 36px 20px;
     }
 
     .section__about-img {
         width: 375px;
+        height: 235px;
+        margin-top: 0px;
     }
 
     .section__about-img img {
@@ -58,30 +65,39 @@
 
     .section__about-img hr {
         width: 335px;
-        margin: 0px 20px 0px 20px;
+        margin: 0px 20px 24px 20px;
     }
-    /* __________________ */
+
     .section__articles-author {
-        margin-left: 19px;
-        display: block;
+        width: 57px;
+        height: 57px;
+        margin: 24px 299px 23px 19px;
+        display: flex;
     }
 
     .section__articles-avatar img {
         width: 57px;
         height: 57px;
+        border-radius: 50%;
+        margin-top: 24px;
     }
+
+
     .section__articles-information {
-        height: 57px;
         margin-top: 30px;
         margin-left: 16px;
     }
+
     .section__articles-info {
         width: 132px;
         height: 16px;
+        font-weight: 700;
         font-size: 13px;
         line-height: 15.51px;
+        letter-spacing: 0.05em;
         margin-bottom: 6px;
     }
+
     .section__articles-time {
         width: 155px;
         height: 16px;
@@ -89,11 +105,20 @@
         font-size: 13px;
         line-height: 15.51px;
     }
+
     .section__articles-social {
         width: 335px;
         height: 54px;
-        margin: 17px 20px 0px 1px ;
+        margin-left: -230px;
+        margin-top: 104px;
+        box-sizing: border-box;
+        border: 1px solid #EAEAEA;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+        text-align: center;
+
     }
+
     .section__articles-social-phone img {
         margin: 17px 46px;
     }
@@ -101,15 +126,11 @@
     .section__articles-social-phone {
 
         display: block;
-    }
-    .section__articles-social-facebook {
         width: 112px;
         height: 54px;
+        border-right: 1px solid #EAEAEA;
     }
-    .section__articles-social-twitter {
-        width: 111px;
-        height: 54px;
-    }
+
     .section__articles-social-facebook img {
         margin: 17.4px 46px 17.4px 46px;
     }
@@ -118,62 +139,132 @@
         margin: 19px 46px
     }
 
-    /* _________________________ */
-    .articles-introduce-1 {
+    .section__articles-social-facebook {
+        width: 112px;
+        height: 54px;
+        border-right: 1px solid #EAEAEA;
+    }
+
+    .section__articles-social-twitter {
+        width: 111px;
+        height: 54px;
+        border-right: 1px solid #EAEAEA;
+
+    }
+
+    .articles-introduce {
         display: none;
     }
 
-    .articles-introduce-2 {
+    .articles-introduce1 {
+        width: 335px;
+        height: 135px;
         margin-left: 20px;
-        margin-top: 32px;
+        margin-top: 134px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 170%;
         display: block;
     }
+
     .articles-title {
         width: 335px;
         height: 31px;
         margin: 42px 20px 19px 20px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-weight: 700;
         font-size: 26px;
         line-height: 31.03px;
     }
-    .articles-opening-1 {
+
+    .articles-opening {
         display: none;
     }
-    .articles-opening-2 {
+
+    .articles-introduce2 {
+        width: 335px;
+        height: 135px;
         margin-left: 20px;
         margin-top: 19px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 170%;
         display: block;
     }
+
     .articles-img img {
         width: 375px;
         height: 250px;
-        margin: 42px 0px 7px 0px;
+        margin: 42px 0px 12px 0px;
     }
+
     .articles-img-caption {
         width: 335px;
         height: 36px;
         margin-left: 20px;
-        font-size: 13px;
-        line-height: 18px;
+        font-family: 'SF Pro Text', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18.2px;
+        text-align: center;
     }
-    .articles-main-2 {
+
+    .articles-introduce3 {
+        width: 335px;
+        height: 270px;
         margin-left: 22px;
         margin-top: 42px;
+        font-family: 'New York Medium';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27.2px;
+        text-align: start;
         display: block;
     }
 
-    .articles-main-1 {
+    .articles-main {
         display: none;
     }
-    .articles-share {
+
+    .articles-title1 {
+        width: 46px;
+        height: 17px;
         margin: 42px 309px 9px 20px;
+        font-family: 'SF Pro Display';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
         display: block;
     }
+
+    .articles-main {
+        display: none;
+    }
+
     .articles-list {
         display: none;
     }
-    .articles-menu{
+
+    .menu-item {
         display: none;
     }
+
+    .menu-_text {
+        display: none;
+    }
+
+    .menu__img {
+        display: none;
+    }
+
+    .menu__text-first {
+        display: none;
+    }
+
+    .menu__text-second {
+        display: none;
+    }
+
     .articles-ending {
         display: none;
     }
@@ -183,18 +274,31 @@
 
     }
 
-
     .articles-close-social {
         width: 335px;
         height: 54px;
-        margin:9px 20px 24px 20px;
+        margin-left: 20px;
+        margin-top: 9px;
+        box-sizing: border-box;
+        border: 1px solid #EAEAEA;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+        text-align: center;
+
     }
-    .articles-close-phone img {
+
+
+
+    .articles-close-line img {
         margin: 17px 46px;
     }
 
-    .articles-close-phone {
+    .articles-close-line {
+
         display: block;
+        width: 112px;
+        height: 54px;
+        border-right: 1px solid #EAEAEA;
     }
 
     .articles-close-text-facebook {
@@ -216,19 +320,25 @@
     .articles-close-facebook {
         width: 112px;
         height: 54px;
+        border-right: 1px solid #EAEAEA;
     }
 
     .articles-close-twitter {
         width: 112px;
         height: 54px;
+        border-right: 1px solid #EAEAEA;
 
     }
 
     .articles-close-tag {
         width: 210px;
         height: 17px;
+        font-family: 'SF Pro Text', sans-serif;
+        font-weight: 500;
         font-size: 14px;
-        margin: 0px 145px 25px 20px;
+        line-height: 16.71px;
+        letter-spacing: 0.03em;
+        margin: 24px 145px 25px 20px;
     }
 
     .articles-close-tag a {
@@ -236,26 +346,30 @@
     }
 
     .articles-close-img {
-        width: 335px;
-        margin: 25px 20px 25px 20px;
+        width: fit-content;
+
+        margin: 25px
     }
 
     .articles-close-img img {
         width: 335px;
-        height: 1px;
+
+        margin-right: 20px
     }
 
-    .articles-author-2 {
+    .articles-author {
+
         margin-left: 0px;
+
     }
 
-    .author-information-detail-1 {
+    .author-information {
         width: 245px;
         height: 16px;
         margin: 0px 0px 0px 24px;
     }
 
-    .articles-author-2 img {
+    .author-avatar img {
         width: 71.25px;
         height: 71.25px;
         border-radius: 50%;
@@ -270,23 +384,28 @@
         letter-spacing: 0.05em;
 
     }
-    .author-introduction-1-1 {
+
+    .author-introduction-1 {
         width: 245px;
         height: 88px;
+        font-family: 'New York Small', sans-serif;
+        font-Weight: 400;
         font-Size: 14px;
         Line-height: 22.4px;
     }
 
-    .author-introduction-1-2 {
-        display: none;
+    .author-introduction-2 {
+        width: 335px;
+        height: 22px;
+        font-family: 'New York Small', sans-serif;
+        font-Weight: 400;
+        font-Size: 14px;
+        Line-height: 22.4px;
+        margin: 0px 0px 0px -90px;
 
     }
-    .author-information-detail-2{
-        display: block;
-        margin: 1px 20px 91px 20px;
-    }
-    /* ----------------------------- */
-    /* ----------------suggestion----------------- */  
+
+    /* ----------------suggestion----------------- */
     .suggestion {
         width: 375px;
         height: 1145px;
@@ -299,7 +418,8 @@
     .suggestion-eye{
         margin: -25px 154px 0px 155px;
     }
-    /* __________________________ */
+
+    /* ___________________ */
     .suggestion__articles{
         width: 375px;
     }
@@ -353,14 +473,15 @@
     }
 
     /* ------------------------------------
-    ________________SIGN_UP______________ */
+________________SIGN_UP______________ */
     .Sign_up {
         display: flex;
         justify-content: center;
         align-items: center;
         border-top: 10px solid black;
-        width: 375px;
+        width: 379px;
         margin-top: 34px;
+        margin-left: 2px;
     }
 
     .Sign_up h3 {
@@ -397,7 +518,7 @@
     }
 
     form {
-        width: 375px;
+        width: 379px;
         height: 305px;
         border-bottom: 1px solid black;
         border-top: #FFFFFF;

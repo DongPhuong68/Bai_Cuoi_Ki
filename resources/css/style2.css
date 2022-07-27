@@ -5,8 +5,10 @@
 }
 
 body {
+    background-color: white;
     color: #000;
     margin: 0;
+    max-width: 1440px;
 }
 
 /* --------------------------- */
@@ -118,6 +120,7 @@ body {
     Font-family: "SF Mono", sans-serif;
     Font-size: 20px;
     Line-height: 170%;
+    Vertical-align: Top;
 }
 
 .section__about-img hr {
@@ -130,9 +133,7 @@ body {
     display: flex;
     margin-left: 399px;
 }
-.articles-author-1{
-    display: flex;
-}
+
 .section__articles-avatar img {
     width: 57px;
     height: 57px;
@@ -140,7 +141,7 @@ body {
     margin-top: 24px;
 }
 
-.section__articles-information {
+.section__articles-infomation {
     margin-top: 29px;
     margin-left: 16px;
 }
@@ -201,14 +202,10 @@ a {
     border-right: 1px solid #EAEAEA;
 }   
 .section__articles-social-phone {
-    width: 112px;
-    height: 54px;
-    border-left: 1px solid #EAEAEA;
-    display: none;
+        display: none;
 }
-/* _____________________ */
 
-.articles-introduce-1 {
+.articles-introduce {
     width: 640px;
     height: 238px;
     margin-left: 400px;
@@ -219,14 +216,7 @@ a {
     line-height: 170%;
     text-align: start;
 }
-
-.articles-introduce-2 {
-    width: 335px;
-    height: 135px;
-    font-family: 'New York Medium',sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 170%;
+.articles-introduce1 {
     display: none;
 
 }
@@ -238,10 +228,9 @@ a {
     font-weight: 700;
     font-size: 32px;
     line-height: 160%;
-    white-space: nowrap;
 }
 
-.articles-opening-1 {
+.articles-opening {
     width: 640px;
     height: 238px;
     margin-left: 400px;
@@ -252,13 +241,7 @@ a {
     line-height: 170%;
     text-align: start;
 }
-.articles-opening-2 {
-    font-family: 'New York Medium',sans-serif;
-    width: 335px;
-    height: 135px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 170%;
+.articles-introduce2 {
     display: none;
 }
 .articles-img img {
@@ -277,16 +260,10 @@ a {
     line-height: 140%;
     text-align: center;
 }
-.articles-main-2 {
-    width: 335px;
-    height: 270px;
-    font-family: 'New York Medium',sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 27.2px;
+.articles-introduce3 {
     display: none;
 }
-.articles-main-1 {
+.articles-main {
     width: 640px;
     height: 272px;
     margin-left: 400px;
@@ -297,17 +274,13 @@ a {
     line-height: 170%;
     text-align: start;
 }
-.articles-share{
-    width: 46px;
-    height: 17px;
-    font-family: 'SF Pro Display',sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 0.03em;
+.articles-title1{
     display: none;
     }
 
+/* .section__articles-body-menu{
+    margin:  19px 428px 0px 400px;
+} */
 
 .articles-list {
     width: 640px;
@@ -415,6 +388,10 @@ a {
     height: 26px;
     margin: 19px 75px 19px 16px;
 }
+.articles-close-line {
+    display: none;
+}
+
 .articles-close-img-facebook {
     height: 20px;
     width: 20px;
@@ -430,24 +407,18 @@ a {
 .articles-close-facebook {
     width: 320px;
     height: 64px;
-    border-right: 1px solid #EAEAEA;
+    border-right: 1px solid rgba(234, 234, 234, 1);
 }
 
 .articles-close-twitter {
     width: 320px;
     height: 64px;
 }
-.articles-close-phone {
-    width: 112px;
-    height: 54px;
-    border-left: 1px solid #EAEAEA;
-    display: none;
-}
 
 .articles-close-tag {
     width: 240px;
     height: 19px;
-    font-family: "SF Pro Text",sans-serif;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -464,24 +435,27 @@ a {
     margin: 34px 400px 0px 400px;
 
 }
-/* ------------------- */
-.articles-author-2 {
+
+.articles-author {
+    display: flex;
     margin-left: 399px;
 }
-.author-information{
-    display: flex;
+
+.author-information {
+    width: 543px;
+    height: 78px;
+    margin: 32px 0px 0px 24px;
+
 }
-.articles-author-2 img {
+
+
+.author-avatar img {
     margin-top: 36px;
     width: 71.25px;
     height: 71.25px;
     border-radius: 50%;
 }
-.author-information-detail-1 {
-    width: 543px;
-    height: 78px;
-    margin: 32px 0px 0px 24px;
-}
+
 .author-name {
     font-family: 'SF Pro Text', sans-serif;
     font-weight: 700;
@@ -491,26 +465,20 @@ a {
     text-transform: uppercase;
 }
 
-.author-introduction-1-1 {
+
+.author-introduction-1 {
+    width: 543px;
+    height: 78px;
     font-family: 'New York Small', sans-serif;
     font-Weight: 400;
     font-Size: 16px;
     Line-height: 25.6px;
 }
-.author-introduction-1-2 {
+.author-introduction-2 {
     font-family: 'New York Small', sans-serif;
     font-Weight: 400;
     font-Size: 16px;
     Line-height: 25.6px;
-}
-.author-information-detail-2 {
-    width: 335px;
-    height: 22px;
-    font-family: 'New York Small',sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 160%;
-    display: none;
 }
 
 
