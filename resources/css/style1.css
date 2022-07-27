@@ -150,15 +150,7 @@ body {
     margin: 0px 402px 0px 402px ;
     /* display: none; */
 }
-.section__articles-list-2{
-    display: grid;
-    grid-template-columns: repeat(2,100px);
-    grid-template-rows:repeat(3,100px);
-    column-gap: 28px ;
-    row-gap: 162px;
-    margin: 0px 402px 0px 402px ;
-    /* display: none; */
-}
+
 .section__articles-list-1 a{
     text-decoration: none;
     color: black;
